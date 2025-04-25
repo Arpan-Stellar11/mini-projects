@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: rgb(25, 25, 25);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.score-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bold;
+}
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: transparent;
+}
+button {
+  cursor: pointer;
+}
+.emoji-pic-btn {
+  margin: 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(25, 25, 25);
+  border: 2px solid white;
+}
+.js-result {
+  margin: 25px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.reset-btn {
+  border: none;
+  padding: 5px;
+  border-radius: 50px;
+  font-weight: bold;
+  margin: 20px;
+}
